@@ -14,7 +14,7 @@ const ContactCard = ({ contact, clickHandler }) => {
             <p>{contact.name}</p>
           </div>
           <div className="header">
-            <h6>{contact.email}</h6>
+            <h6 style={{ color: "#3293a8" }}>{contact.email}</h6>
           </div>
         </div>
       </div>
