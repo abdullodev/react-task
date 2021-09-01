@@ -1,0 +1,39 @@
+.itemElement {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.deletIcon {
+  color: red;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addContact {
+  margin-top: 20px;
+}
+.imgUser {
+  height: 30px;
+}
+.nameEmail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+}
+.deleteDiv {
+  margin-left: 100px;
+  width: 20%;
+}
+.fullContainer {
+  margin: 20px auto;
+  max-width: 340px;
+  min-height: 400px;
+  background-color: white;
+  box-shadow: 0 0 2px 1px rgb(228, 227, 227);
+  padding: 40px;
+}
